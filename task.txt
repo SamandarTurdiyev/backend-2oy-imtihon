@@ -1,0 +1,5 @@
+//bismillah
+get ==> '/rooms' ==> GET_ROOMS;
+get ==> '/rooms/:id' ==> GET_ROOMS_ID;
+get ==> '/rooms/:id/availability' ==> GET_ROOMSID_AVAILABILITY;
+post ==> '/rooms/:id/book' ==> logger ==> POST_ROOMSID_BOOK;
